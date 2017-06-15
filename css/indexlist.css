@@ -1,0 +1,28 @@
+#banner{
+	width:1210px;
+	margin:0 auto;
+}
+
+#list{
+	width:220px;
+	height:320px;
+	background:#e84848;
+}
+#list ul{
+	list-style:none;
+	padding:5px 6px 0 6px;
+}
+#list ul li{
+	border-bottom:dashed 1px #f27676;
+	height:37px;
+}
+#list ul li a{
+	text-decoration:none;
+	color:white;
+	font-size:14px;
+	display:block;
+	height:37px;
+	line-height:37px;
+	padding-left:32px;
+	background:url(../img/index/images/indexListBg2.jpg) no-repeat 184px 16px;
+}

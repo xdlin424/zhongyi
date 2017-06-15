@@ -3,8 +3,122 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/gghead.css"/>
+		<link rel="stylesheet" type="text/css" href="css/indexlist.css"/>
 	</head>
 	<body>
+		<!--1.头部-->
+		<header>
+			<section class="box1">
+				<a href="#">收藏中一办公</a>
+				<div>
+					<p class="p1">您好，欢迎来到中一办公！</p>
+					<ul>
+						<li><a class="red" href="#">请登录</a></li>
+						<li><a class="red" href="#">免费注册</a></li>
+						<li><a href="#">我的订单</a></li>
+						<li class="bg"><a href="#">我的中一</a></li>
+						<li class="bg"><a href="#">帮助中心</a></li>
+						<li><a href="#">在线客服</a></li>
+					</ul>
+					<p class="p2">010-67266715</p>
+				</div>
+			</section>
+		</header>
+		<!--2.logo-->
+		<div id="logo">
+			<section class="box1">
+				<a href="#"><img src="img/index/images/logo.jpg"/></a>
+				<div>
+					<form>
+						<input type="text" placeholder="请输入商品或商家"/>
+						<input type="submit" value=""/>
+						
+					</form>
+					<p>
+						<i>热门搜索：</i>
+						<a href="#">硒鼓</a>
+						<a href="#">墨盒</a>
+						<a href="#">白板</a>
+						<a href="#">复印纸</a>
+					</p>
+				</div>
+				<!--购物车-->
+				<a href="#" class="shop">
+					<p>0</p>
+					<span>去购物车结算</span>
+				</a>
+			</section>
+			<section class="box2">
+				<p class="list"><span>所有商品分类</span></p>
+				<a href="#">首&nbsp;&nbsp;&nbsp;页</a>
+				<a href="#">品牌专区</a>
+				<a href="#">优惠特价</a>
+				<a href="#">积分兑换</a>
+				<a href="#">快速订单</a>
+				<a href="#">办公用品清单</a>
+				
+				<!--轮播图-->
+				<!-- 代码部分begin -->
+				<div class="demopage">
+					<div id="marquee2">
+						<ul>
+							<li>
+								<a target="_blank" href="#" ><img src="img/index/image/20140223/1393166166.jpg" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#" ><img src="img/index/image/20140223/1393169096.jpg" /></a>
+							</li>
+							<li>
+								<a target="_blank" href="#" ><img src="img/index/image/20140223/1393174338.jpg" /></a>
+							</li>
+						</ul>
+					</div>
+					<div class="control">
+						<a href="javascript:void(0);" id="goU"></a>
+						<a href="javascript:void(0);" id="goD"></a>
+					</div>
+				</div>
+				<!--demopage end-->
+				<script src="js/jquery-1.4.2.min.js"></script>
+				<script src="js/Marquee.js"></script>
+				<script type="text/javascript">
+					$(function() {
+						//一次纵向滚动一个
+						$('#marquee2').kxbdSuperMarquee({
+							distance: 34,
+							time: 3,
+							btnGo: {
+								up: '#goU',
+								down: '#goD'
+							},
+							direction: 'down'
+						});
+					});
+				</script>	
+			</section>
+		</div>
+		<!--3.banner(含公共样式list)-->
+		<div id="banner">
+			<div id="list">
+				<ul>
+					<li><a href="#">办公用纸/打印耗材</a></li>
+					<li><a href="#">办公文具</a></li>
+					<li><a href="#">办公设备</a></li>
+					<li><a href="#">电脑/通讯/数码</a></li>
+					<li><a href="#">生活日用</a></li>
+					<li><a href="#">办公家具</a></li>
+					<li><a href="#">体育/美术用品</a></li>
+					<li><a href="#">礼品订制</a></li>
+				</ul>
+			</div>
+			
+			
+			
+			
+		</div>
+		
+		
 		
 	</body>
 </html>
