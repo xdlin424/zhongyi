@@ -7,6 +7,7 @@
 	width:220px;
 	height:320px;
 	background:#e84848;
+	position:relative;
 }
 #list ul{
 	list-style:none;
@@ -14,15 +15,126 @@
 }
 #list ul li{
 	border-bottom:dashed 1px #f27676;
-	height:37px;
+
 }
-#list ul li a{
+#list ul li .showa1{
 	text-decoration:none;
 	color:white;
 	font-size:14px;
 	display:block;
 	height:37px;
+	width:182px;
 	line-height:37px;
 	padding-left:32px;
 	background:url(../img/index/images/indexListBg2.jpg) no-repeat 184px 16px;
+}
+#list ul .list div{
+	width:680px;
+	position:absolute;
+	top:0;
+	left:220px;
+	box-shadow:2px 2px 1px gray;
+	display:none;
+}
+
+#list ul .list div ul{
+	padding:0;
+}
+#list ul .list div .det1{
+	width:519px;
+	border-right:1px solid darkgray;
+	float:left;
+}
+#list ul .list div .det1 li{
+	border-bottom: none;
+	margin-top:6px;
+}
+#list ul .list div .det1 li p{
+	width:90px;
+	float:left;
+	color:red;
+	font-size:12px;
+	margin-top:13px;
+	text-align:center;
+}
+#list ul .list div .det1 li ul{
+	float:left;
+	width:410px;
+}
+#list ul .list div .det1 li ul li{
+	float:left;
+	padding:0 8px;
+	border-bottom: none;
+	border-left:1px solid darkgray;
+	height:12px;
+	margin-top:14px;
+}
+#list ul .list div .det1 li ul li a{
+	background:none;
+	padding:0;
+	color:black;
+	display:inline-block;
+	font-size:12px;
+	height:12px;
+	line-height:12px;
+	float:left;
+	text-decoration:none;
+}
+#list ul .list div .det2{
+	width:160px;
+	float:right;
+	font-size:13px;
+}
+#list ul .list div .det2 dt{
+	font-weight:600;
+	text-align:center;
+}
+#list ul .list div .det2 dd{
+	height:28px;
+	margin:0;
+	text-align:center;
+}
+#list ul .list div .det2 dd a{
+	color:black;
+	font-size:12px;
+	padding:0;
+	display:inline;
+	text-decoration:none;
+}
+#list ul .list div .det1 li ul li a:hover{
+	transition: all 0.8s;
+	color:red;
+	text-decoration:underline;
+}
+#list ul .list div .det2 dd a:hover{
+	transition: all 0.8s;
+	color:red;
+	text-decoration:underline;
+}
+#list ul .list2 div .det2{
+	height:570px;
+}
+#list ul .list3 div{
+	margin-top:40px;
+	border:solid 1px lightgray;
+}
+#list ul .list4 div{
+	margin-top:60px;
+	border:solid 1px lightgray;
+}
+#list ul .list5 div{
+	margin-top:80px;
+	border:solid 1px lightgray;
+}
+#list ul .list6 div{
+	margin-top:120px;
+	border:solid 1px lightgray;
+}
+#list ul .list7 div{
+	margin-top:160px;
+	border:solid 1px lightgray;
+}
+#list ul .list8 div{
+	margin-top:240px;
+	border:solid 1px lightgray;
 }
