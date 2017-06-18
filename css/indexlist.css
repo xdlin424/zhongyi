@@ -8,6 +8,7 @@
 	height:320px;
 	background:#e84848;
 	position:relative;
+	float: left;
 }
 #list ul{
 	list-style:none;
