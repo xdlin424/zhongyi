@@ -1,6 +1,7 @@
 #banner{
 	width:1210px;
 	margin:0 auto;
+	position:relative;
 }
 
 #list{
@@ -8,6 +9,11 @@
 	height:320px;
 	background:#e84848;
 	position:relative;
+	float: left;
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:10;
 }
 #list ul{
 	list-style:none;
@@ -35,6 +41,7 @@
 	left:220px;
 	box-shadow:2px 2px 1px gray;
 	display:none;
+	background:white;
 }
 
 #list ul .list div ul{

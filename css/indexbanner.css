@@ -1,0 +1,68 @@
+  
+  ol,ul,li,a{
+  	margin: 0px;
+  	padding: 0px;
+  	list-style: none;
+  }
+  
+  a {
+  	cursor: pointer;
+  }
+  
+  .main {
+  	display:inline-block;
+  	position:absolute;
+  	left:227px;
+  	top:12px;
+  	position: relative;
+  	width: 715px;
+  	height: 306px;
+  	border:1px solid #fdad6d;
+  	z-index:1;
+  }
+  
+  .myslide {
+  	float: left;
+  	position: absolute;
+  	overflow: hidden;
+  	width: 715px;
+  	height: 306px;
+  }
+  
+  .myslidetwo {
+  	position: absolute;
+  	overflow: hidden;
+  	width: 2200px;
+  }
+  
+  .myslidetwo img {
+  	float: left;
+  	width: 715px;
+  	height: 306px;
+  }
+  
+  .label {
+  	position: absolute;
+  	bottom: 0px;
+  	right: 0px;
+  	width: 69px;
+  }
+  
+  .label li {
+  	float: left;
+  	width: 22px;
+  	height: 13px;
+  	line-height: 13px;
+  	text-align: center;
+  	margin-left:1px;
+  	font-size: 9px;
+  	color:white;
+  	background: #575455;
+  	cursor: pointer;
+  }
+  
+  .label li.current {
+  	background: #d00a0d;
+  }
+  
+ 
