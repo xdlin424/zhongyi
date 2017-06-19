@@ -10,10 +10,13 @@
 	background:#e84848;
 	position:relative;
 	float: left;
+<<<<<<< HEAD
 	position:absolute;
 	top:0;
 	left:0;
 	z-index:10;
+=======
+>>>>>>> 13ea1a7500b001dc45f901a6c18a7a3e0773a416
 }
 #list ul{
 	list-style:none;
