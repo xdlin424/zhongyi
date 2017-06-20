@@ -16,18 +16,24 @@
  	
  	
  	// content 1-6F js鼠标移入样式
- 	var oul = $(".detlist");
- 	var num1 = $(".navlist li");
- 	var wid = $(".detlist li").eq(0).width();
-
- 	//鼠标移入实现
- 	num1.mouseover(function() {
- 		num1.removeClass("current1");
- 		var index =  num1.index($(this));
- 		$(this).addClass("current1").siblings().removeClass();
- 		oul.animate({
- 			'left': -wid * index 
- 		}, 0);
- 	})
+	   	
+ 	for(var i=1;i<7;i++){
+	   	(function(k){
+			var oul = $(".floor"+ k + " .detlist");
+			var num = $(".floor"+ k + " .navlist li");
+			var wid = $(".floor"+ k + " .detlist li").eq(0).width();
+			num.mouseover(function() {
+	   		num.removeClass("current1");
+	   		var index =  num.index($(this));
+	   		$(this).addClass("current1").siblings().removeClass();
+	   		oul.animate({
+	   			'left': -wid * index 
+	   		}, 0);
+	   	})
+	   	})(i)
+ 	}
+ 	
+ 	
+ 	
  	
 }) 	
