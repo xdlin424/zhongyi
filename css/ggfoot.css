@@ -1,0 +1,84 @@
+.clearfix:after{
+	content:"...";
+	display:block;
+	height:0;
+	clear:both;
+	overflow:hidden;
+	visibility:hidden;
+}
+div,ul,li,a,p,body,input{
+	padding:0;margin:0;
+}
+#footer{
+	padding-top:6px;
+	/*width:1210px;*/
+	
+}
+#footer .link{
+	width:1210px;
+	margin:0 auto;
+	border-top:1px solid #e3dedf;
+	border-bottom:1px solid #e3dedf;
+}
+#footer .link div{
+	height:147px;
+	width:20%;
+	float:left;
+	padding:10px 0 0;
+}
+#footer .link div p{
+	font-size:14px;
+	text-align:center;
+	font-weight:700;
+	line-height:24px;
+	height:24px;
+	background:url(../img/index/images/footerbg.jpg) no-repeat 68px bottom;
+}
+#footer .link div a{
+	display:block;
+	font-size:12px;
+	height:24px;
+	line-height:24px;
+	color:#333;
+	text-align:center;
+	text-decoration:none;
+}
+#footer .link div a:hover{
+	text-decoration:underline;
+}
+#footer .link div .a1{
+	padding-top:6px;
+}
+
+
+#footer .state{
+	width:1210px;
+	height:140px;
+	margin:0 auto;
+}
+#footer .state p{
+	font-size:12px;
+	color:#999;
+	text-align:center;
+	height:24px;
+	line-height:24px;
+}
+#footer .state span{
+	text-align:center;
+	display:block;
+	font-size:12px;
+	color:#999;
+	height:30px;
+	line-height:30px;
+}
+
+/*login独有样式*/
+#footer .link1{
+	width:980px;
+}
+#footer .state1{
+	width:980px;
+}
+#footer .link1 div p{
+	background-position:45px bottom;
+}

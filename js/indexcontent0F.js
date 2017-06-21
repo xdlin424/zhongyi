@@ -3,7 +3,6 @@
  	var oul = $(".myslidetwol");
  	var numl = $(".labell li a");
  	var wid = $(".myslidel").eq(0).width();
-
  	//数字图标实现
  	numl.mouseover(function() {
  		numl.removeClass("currentl");
@@ -22,6 +21,7 @@
 			var oul = $(".floor"+ k + " .detlist");
 			var num = $(".floor"+ k + " .navlist li");
 			var wid = $(".floor"+ k + " .detlist li").eq(0).width();
+			
 			num.mouseover(function() {
 	   		num.removeClass("current1");
 	   		var index =  num.index($(this));
@@ -32,6 +32,21 @@
 	   	})
 	   	})(i)
  	}
+ 	
+ 	
+ 	// 6. 页面固定元素移入移出
+   	var time = true;
+   	var title = $('#service .tit');
+   	title.click(function(){
+// 		return false;
+   		if(time){
+   			$('#service').animate({right:'0'},200);
+   		}else{
+   			$('#service').animate({right:'-150px'},200);
+   		}
+   		time = !time;
+   	})
+ 	
  	
  	
  	

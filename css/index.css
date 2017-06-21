@@ -404,63 +404,86 @@
 }
 
 /*    5.footer     */
-#footer{
-	padding-top:6px;
-	width:1210px;
+
+
+/*     6.页面固定元素                  */ 
+#service{
+	height:315px;
+	width:150px;
+	padding-left:31px;
+	background:url(../img/index/images/service.png);
+	position:fixed;
+	top:187px;
+	right:-150px;
+	text-align:center;
+}
+#service .tit{
+	display:block;
+	height:117px;
+	width:31px;
+	position:absolute;
+	top:78px;
+	left:0;
+}
+#service p{
+	color:#cc0003;
+	font-size:11px;
+	height:11px;
+	padding:10px 0 7px 0;
+}
+#service time{
+	display:block;
+	width:115px;
+	color:#f57729;
+	font-size:9px;
+	line-height:19px;
+	height:19px;
+	border-bottom:1px solid #f57713;
 	margin:0 auto;
 }
-#footer .link{
-	width:1210px;
-	border-top:1px solid #e3dedf;
-	border-bottom:1px solid #e3dedf;
+#service .p1{
+	padding:11px 0 10px 0;
 }
-#footer .link div{
-	height:147px;
-	width:96px;
-	float:left;
-	padding:10px 68px 0;
-}
-#footer .link div p{
-	font-size:14px;
-	text-align:center;
-	font-weight:700;
-	line-height:24px;
-	height:24px;
-	background:url(../img/index/images/footerbg.jpg) no-repeat left bottom;
-}
-#footer .link div a{
+#service .aqq{
 	display:block;
-	font-size:12px;
-	height:24px;
-	line-height:24px;
-	color:#333;
-	text-align:center;
+	background:url(../img/index/images/qq.jpg) no-repeat 4px 10px;
+	width:91px;
+	height:38px;
+	border-top:1px solid #e6e5e4;
+	border-bottom:1px solid #e6e5e4;
 	text-decoration:none;
+	color:#333;
+	font-size:9px;
+	line-height:38px;
+	margin-left:15px;
+	padding-left:31px;
+	text-align:left;
 }
-#footer .link div a:hover{
+#service .aqq:hover{
 	text-decoration:underline;
 }
-#footer .link div .a1{
-	padding-top:6px;
+#service .p2{
+	color:#f67713;
+	height:55px;
+	width:89px;
+	border-top:1px solid #e6e5e4;
+	border-bottom:1px solid #e6e5e4;
+	margin-left:15px;
+	background:url(../img/index/images/phone.jpg) no-repeat 5px 15px;
+	padding:0 0 0 33px;
+	text-align:left;
+	line-height:63px;
 }
 
 
-#footer .state{
-	width:1210px;
-	height:140px;
-}
-#footer .state p{
-	font-size:12px;
-	color:#999;
-	text-align:center;
-	height:24px;
-	line-height:24px;
-}
-#footer .state span{
-	text-align:center;
+
+#online{
 	display:block;
-	font-size:12px;
-	color:#999;
-	height:30px;
-	line-height:30px;
+	height:84px;
+	width:19px;
+	background:url(../img/index/images/zxdc.jpg);
+	position:fixed;
+	right:10px;
+	bottom:25px;
 }
+
